@@ -1,0 +1,5 @@
+[
+    { "nombre": "Huellitas", "disponible": false, "id": 1 },
+    { "nombre": "Patitas", "disponible": false, "id": 2 },
+    { "nombre": "AmorPerruno", "disponible": true, "id": 3 }
+  ]

@@ -1,0 +1,13 @@
+/*----FOOTER----*/
+
+footer{
+    text-align: center;
+    margin: 40px;
+    user-select: none;
+    div{
+        h3{
+            color: nth($color, 6);
+            padding: 20px;
+        }
+    }
+}

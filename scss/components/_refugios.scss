@@ -1,0 +1,13 @@
+/*----REFUGIOS----*/
+
+.refugios{
+    &:hover{
+        color: nth($color, 1);
+        background-color: blue;
+        transform: scale(1.4);
+        transition: 1s;
+    }
+    img{
+        width: 20%;
+    }
+}

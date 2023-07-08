@@ -1,0 +1,50 @@
+//! VARIABLES
+$color-principal:yellow;
+$color-sercundario:blue;
+
+$color:
+greenyellow,
+yellow,
+white,
+blue,
+violet,
+blueviolet;
+
+$font-size:
+12px,
+16px,
+23px,
+32px;
+
+//! EXTENDS
+%flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+%grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px;
+    gap: 50px;
+    column-gap: 100px;
+}
+
+//! MIXINS
+@mixin flex ($flex, $justify, $align, $direction, $wrap){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+@mixin text ($size, $family, $weight, $style){
+    font-size: $size;
+    font-family: $family;
+    font-weight: $weight;
+    font-style: $style;
+}
