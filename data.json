@@ -1,0 +1,8 @@
+[
+    { "nombre": "Huellitas", "disponible": false, "id": 1 },
+    { "nombre": "Patitas", "disponible": false, "id": 2 },
+    { "nombre": "AmorPerruno", "disponible": true, "id": 3 },
+    { "nombre": "Mimados", "disponible": true, "id": 4 },
+    { "nombre": "Mascontentas", "disponible": true, "id": 5 },
+    { "nombre": "KittyMiau", "disponible": true, "id": 6 }
+  ]

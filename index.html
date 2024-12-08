@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--KEYWORD-->
+    <meta name="keywords" content="refugios, adopciones, guarderias, mascotas">
+    <!--DESCRIPTION-->
+    <meta name="description" content="Somos un centro de adopciones de animales">
+    <!--TITLE-->
+    <title>MASCOTAS | Adoptame - Los Mejores</title>
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--ANIMATE-CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!--NOMBRE-->
+    <title>Adoptame</title>
+</head>
+<body>
+    <div id="saludo"></div>
+
+    <div id="persona"></div>
+
+    <div id="perrito"></div>
+    <select name="select" id="selectPerrito" class="perrito">
+        <option value="-">-</option>
+        <option value="si">Si</option>
+        <option value="no">No</option>
+    </select>
+
+    <div id="gatito"></div>
+    <select name="select" id="selectGatito" class="gatito">
+        <option value="-">-</option>
+        <option value="si">Si</option>
+        <option value="no">No</option>
+    </select>
+
+    <div id="asesores"></div>
+    <select name="select" id="selectAsesores" class="asesores">
+        <option value="-">-</option>
+        <option value="melina">Melina</option>
+        <option value="joel">Joel</option>
+        <option value="abril">Abril</option>
+        <option value="haziel">Haziel</option>
+        <option value="jehiel">Jehiel</option>
+    </select>
+
+    <div id="nota1"></div>
+    <div id="nota2"></div>
+    <div id="nota3"></div>
+
+    <select name="select" id="preferencias" class="preferencias">
+        <option value="grande">¿ Grande ?</option>
+        <option value="chiquito">¿ Chiquito ?</option>
+        <option value="mediano">¿ Mediano ?</option>
+        <option value="indiferente">¿ Indiferente ?</option>
+    </select>
+
+    <header>
+        <div id="contenedor">
+            <button id="miBoton" class="miBoton">Adoptar</button>
+        </div>
+        <h2 id="misClics">Adoptame 💖</h2>
+        <h1 class="animate__animated animate__fadeIn">Bienvenidos</h1>
+        <nav>
+        </nav>
+        <a href="https://www.instagram.com/" target="_blank" class="instagram">Instagram</a>
+    </header>
+    <main>
+        <h2>Estos lugares tienen todo lo que ellos necesitan</h2>
+        <hr/>
+        <section>
+            <br/>
+            <h1 class="publicaciones">Publicaciones✨</h1>
+            <br/>
+            <ul id="listado" class="listado"></ul>
+        </section>
+        <section>
+            <form class="form" name="contact" netlify>
+                <h2 id="teclado">¡Escribinos un comentario!</h2>
+                <p>
+                    <label>Su Nombre: <input type="text" name="name" id="misTeclas" /></label>
+                </p>
+                <p>
+                    <label>Su Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Mensaje: <textarea name="mensaje"></textarea></label>
+                </p>
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201170.1127810472!2d-57.76534004060305!3d-38.017181143532774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1684458867416!5m2!1ses!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <br/>
+        <section>
+            <div>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png"
+                        alt="Icono de Instagram"></a>
+                <a href="https://www.whatsapp.com/" target="_blank"><img src="./img/whatsapp.png"
+                        alt="Icono de Whatsapp"></a>
+            </div>
+            <div>
+                <h2>Hacenos tus consultas por WhatsApp</h2>
+                <h3>Fundado en 2023</h3>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./main.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

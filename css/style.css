@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*----HEADER----*/
+
+header {
+    background-color: yellow;
+    text-align: center;
+    font-size: 40px;
+    user-select: none;
+}
+
+header h1 {
+    font-size: 100px;
+    font-family: 'Patrick Hand';
+    color: blue;
+}
+
+header h2{
+    font-size: none;
+}
+
+header nav {
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    background: url(../img/colores.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.instagram {
+    font-size: 50px;
+    text-decoration: none;
+    color: violet;
+    user-select: none;
+}
+
+
+/*----MAIN----*/
+
+main {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    user-select: none;
+}
+
+main h2 {
+    color: darkblue;
+}
+
+.publicaciones {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.listado {
+    padding: 50px;
+}
+
+.form h2 {
+    margin: 30px;
+}
+
+
+/*----FOOTER----*/
+
+footer {
+    text-align: center;
+    margin: 40px;
+    user-select: none;
+}
+
+footer section div h3 {
+    color: blueviolet;
+    padding: 20px;
+}
+
+
+/*----MEDIA QUERY----*/
+
+@media screen and (max-width:500px) {
+    .iframe {
+        width: 100%;
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .publicaciones {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .listado {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .listado {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .listado {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .listado {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .form {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .form {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .form {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .form {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width:420px) {
+    /*----(max-height)----*/
+    header h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:299px) {
+    body {
+        display: none;
+    }
+}
+
+
+/*----MAIN.JS----*/
+
+.teclado {
+    user-select: none;
+}
+
+.rojo {
+    color: white;
+    background-color: red;
+    user-select: none;
+}
+
+.blanco {
+    color: black;
+    background-color: white;
+    user-select: none;
+}
+
+.agua {
+    color: blue;
+    background-color: aqua;
+    user-select: none;
+}
+
+.celeste {
+    color: yellow;
+    background-color: blueviolet;
+    user-select: none;
+}
+
+.saludo {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.persona {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.perrito {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.gatito {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.asesores {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.form {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.nota1 {
+    text-align: center;
+    user-select: none;
+}
+
+.nota2 {
+    text-align: center;
+    user-select: none;
+}
+
+.nota3 {
+    text-align: center;
+    user-select: none;
+}
+
+.preferencias {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.listado {
+    color: black;
+    background-color: white;
+    user-select: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}

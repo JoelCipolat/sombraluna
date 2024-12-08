@@ -1,0 +1,116 @@
+/*----MAIN.JS----*/
+  .teclado {
+    user-select: none; }
+
+  .rojo {
+    color: white;
+    background-color: red;
+    user-select: none; }
+
+  .blanco {
+    color: black;
+    background-color: white;
+    user-select: none; }
+
+  .agua {
+    color: blue;
+    background-color: aqua;
+    user-select: none; }
+
+  .celeste {
+    color: yellow;
+    background-color: blueviolet;
+    user-select: none; }
+
+  .saludo {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; }
+  
+  .persona {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; }
+  
+  .perrito {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; }
+  
+  .gatito {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; }
+  
+  .asesores {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; }
+  
+  .form {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto; }
+  
+  .nota1 {
+    text-align: center;
+    user-select: none; }
+  
+  .nota2 {
+    text-align: center;
+    user-select: none; }
+  
+  .nota3 {
+    text-align: center;
+    user-select: none; }
+  
+  .preferencias {
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; }
+  
+  .listado {
+    color: black;
+    background-color: white;
+    user-select: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; }
